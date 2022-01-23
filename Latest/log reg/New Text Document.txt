@@ -1,0 +1,7 @@
+$CO= "SELECT online FROM register1 WHERE email = '$email'";
+	  $res = mysqli_query($conn,$CO);
+	  $n = mysqli_num_rows($res);
+	  if($n == 1){
+	   sleep(5000/1000);
+	   echo "YOU";
+	  }
